@@ -1,0 +1,25 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+label{
+    display: block;
+    margin-top: 3%;
+}
+
+.formulario{
+    margin: 2rem;
+    padding: 2rem;
+
+}
+
+input{
+    border-radius: 0.2rem;
+    border-color: deepskyblue;
+    padding: 0.5rem;
+}
+
+#nasc:hover{
+    background-color: lightblue;
+}
