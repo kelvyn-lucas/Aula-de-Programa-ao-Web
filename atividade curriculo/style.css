@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+      background-color: rgb(255, 255, 255);
+      margin: 30px;
+      /* border: 5px solid black; */
+      font-size: 110%;
+      padding: 50px;
+}
+
+    header{
+        background-color: rgb(255, 196, 0);
+        padding: 10px;
+    }
+
+    li{ margin-left: 50px;}
+   
+    ul{
+        margin-left: 50px;
+    }
+
+            
