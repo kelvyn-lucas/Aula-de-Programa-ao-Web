@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="bg-Light">
+    <div class="container-fluid">
+        <div class="text-center">
+    <h1 class=" bg-primary m-5">Hello World</h1>
+    
+    <p>
+        Selecione o riadio button e clique em enviar
+    </p>
+    <p>Genero:</p>
+
+    <input type="radio" name="gender" value="Masculino">Masculino
+    <input type="radio" name="gender" value="Feminino">Feminino
+    <br>
+    <button type="button" onclick="displayRadioValue()">
+        Enviar
+    </button>
+    <div id="result"> </div>
+    <div>
+        <h2>Qual elemento da lista foi selecionado?</h2>
+        <p>Selecione uma das opções de plano: 
+            <select id="select1">
+                <option value="free">Free</option>
+                <option value="basic">Basico</option>
+                <option value="premium">Premium</option>
+            </select>
+        </p>
+        <p>O valor selecionado é:
+            <span class="output"></span>
+        </p>
+        <button onclick="getOption()">Veja a seleção</button>
+    </div>
+    <div>
+        <h2>Elementos check</h2>
+        <p>
+            Trabalho <input type="checkbox" name="work" value="Trabalho" id="w">
+        </p>
+        <p>
+            Estudo <input type="checkbox" name="study" value="Estudo" id="s">
+        </p>
+        <p>
+            Saúde <input type="checkbox" name="healt" value="Saúde" id="h">
+        </p>
+        <p>
+            <button onclick="getCheckBox()">Enviar</button>
+        </p>
+        <p>Minhas prioridades são <span id="pri">...</span></p>
+        
+    </div>
+</div>
+</div>
+</body>
+
+<script src="javascript.js"></script>
+</html>
